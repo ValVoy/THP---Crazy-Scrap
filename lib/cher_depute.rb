@@ -51,7 +51,7 @@ def get_deputies_urls
   
   # On définit sur quoi on boucle (ici, on prend tout pour l'exemple)
   # Si tu gardes .first(10) pour tester, change la variable ci-dessous !
-  links_to_scrape = links # ou links.first(10) pour tester
+  links_to_scrape = links.first(10) # ou links.first(10) pour tester
   
   total = links_to_scrape.length
   puts "Démarrage du scraping pour #{total} députés..."
