@@ -50,7 +50,7 @@ def get_townhall_urls
 end
 
 # --- EXÉCUTION ---
-# puts "Récupération des emails en cours (10 premiers)..."
+puts "Récupération des emails en cours (10 premiers)..."
 
 # On utilise 'pp' (Pretty Print) pour avoir l'affichage exact [ { }, { } ]
-# pp get_townhall_urls
+pp get_townhall_urls
